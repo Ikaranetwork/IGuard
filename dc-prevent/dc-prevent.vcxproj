@@ -139,7 +139,7 @@
     <ResourceCompile Include="resource\dc-prevent.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="$(ProjectDir)\resource\duels.ico" />
+    <Image Include="$(ProjectDir)\resource\ikara.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
