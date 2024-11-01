@@ -30,7 +30,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="resource\duels.ico">
+    <Image Include="resource\ikara.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
