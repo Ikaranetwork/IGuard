@@ -240,7 +240,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
   std::printf("DCPrevent (https://github.com/git-eternal)\n [build: %ws]\n\n", BUILD_VER);
 
-  const auto windowClassName = L"Duels DC Prevent";
+  const auto windowClassName = L"IGuard";
 
   WNDCLASSEX wc = { 0 };
 
