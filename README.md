@@ -11,6 +11,7 @@ IGuard is a fork of Eternals [DC Prevent](https://github.com/git-eternal/duels-d
 - Prevent Adjusting Debounce Timer [Coming Soon]
 - Limit CPS [Coming Soon]
 - Prevent Injecting Cheats into Minecraft [Coming Soon]
+- Send In-Depth Data on the player's minecraft client for Server Sided Anti-Cheats [Coming Soon]
 
 ## Use via System Tray
 ![image](https://github.com/git-eternal/duels-dc-prevent/assets/45088542/fb114e1f-c91e-4193-9b45-b1eead22c1bd)
