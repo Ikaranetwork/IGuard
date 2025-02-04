@@ -1,5 +1,5 @@
 ## IGuard
-IGuard is a fork of Eternals [DC Prevent](https://github.com/git-eternal/duels-dc-prevent) which was made for Duels Network. IGuard at its base Prevents double clicks in real-time but will also contain more features as time passes. IGuard will be required to play any ranked modes on Ikara Network.
+IGuard is a hard fork of Eternals [DC Prevent](https://github.com/git-eternal/duels-dc-prevent) which was made for Duels Network. IGuard at its base Prevents double clicks in real-time but will also contain more features as time passes. IGuard will be required to play any ranked modes on Ikara Network.
 
 ## OS Support
 - Windows x64/x32
