@@ -1,4 +1,4 @@
-#define BUILD_VER L"1.1"
+#define BUILD_VER L"1.0-ALPHA"
 
 #include <windows.h>
 #include <iostream>
@@ -238,7 +238,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
   SetConsoleTitleW(std::format(L"DCPrevent - Build {}", BUILD_VER).c_str());
 
-  std::printf("DCPrevent (https://github.com/git-eternal)\n [build: %ws]\n\n", BUILD_VER);
+  std::printf("IGuard (https://github.com/Ikaranetwork/IGuard)\n [build: %ws]\n\n", BUILD_VER);
 
   const auto windowClassName = L"IGuard";
 
