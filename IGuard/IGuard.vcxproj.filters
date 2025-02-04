@@ -25,7 +25,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="resource\dc-prevent.rc">
+    <ResourceCompile Include="resource\IGuard.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>

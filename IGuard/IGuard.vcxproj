@@ -136,7 +136,7 @@
     <ClInclude Include="resource\resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="resource\dc-prevent.rc" />
+    <ResourceCompile Include="resource\IGuard.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="$(ProjectDir)\resource\ikara.ico" />
