@@ -99,7 +99,7 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
     //
     nid.hIcon = LoadIcon(GetModuleHandle(NULL), MAKEINTRESOURCE(IDI_ICON1));
 
-    wcscpy_s(nid.szTip, sizeof(nid.szTip) / sizeof(wchar_t), L"DC Prevent Tray");
+    wcscpy_s(nid.szTip, sizeof(nid.szTip) / sizeof(wchar_t), L"IGuard Tray");
 
     Shell_NotifyIcon(NIM_ADD, &nid);
     
@@ -145,7 +145,7 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
         MF_BYCOMMAND | (enableDcPrevent ? MF_CHECKED : MF_UNCHECKED)
       );
 
-      std::cout << std::format("DC Prevent is now: {}\n",
+      std::cout << std::format("IGuard is now: {}\n",
         enableDcPrevent ? "enabled" : "disabled");
     }
 
@@ -223,7 +223,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
   if (GetLastError() == ERROR_ALREADY_EXISTS) 
   {
-    MessageBox(nullptr, L"An instance of DC Prevent is already running", L"Error", MB_ICONEXCLAMATION);
+    MessageBox(nullptr, L"An instance of IGuard is already running", L"Error", MB_ICONEXCLAMATION);
     return -8;
   }
 
@@ -236,7 +236,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
   freopen_s(&file, "CONOUT$", "w", stdout);
   freopen_s(&file, "CONIN$", "r", stdin);
 
-  SetConsoleTitleW(std::format(L"DCPrevent - Build {}", BUILD_VER).c_str());
+  SetConsoleTitleW(std::format(L"IGuard - Build {}", BUILD_VER).c_str());
 
   std::printf("IGuard (https://github.com/Ikaranetwork/IGuard)\n [build: %ws]\n\n", BUILD_VER);
 
