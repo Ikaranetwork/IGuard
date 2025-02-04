@@ -22,7 +22,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{fe3da809-139c-4b37-bff8-3bf4fdbb3da6}</ProjectGuid>
-    <RootNamespace>dcprevent</RootNamespace>
+    <RootNamespace>IGuard</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
