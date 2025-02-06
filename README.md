@@ -15,8 +15,8 @@ IGuard is a hard fork of Eternals [DC Prevent](https://github.com/git-eternal/du
 ## Use via System Tray
 ![image](https://github.com/user-attachments/assets/ac939049-ec45-4ae5-bdef-df3c6995460a)
 
-## Anti-virus
-If Windows Defender flags IGuard as virus, please disable or whitelist/add IGuard to window's defender exclusions as it is a false and wont be fixed until we get the drivers signed for IGuard 
+## Anti-Virus
+If Windows Defender flags IGuard as a virus, please disable or whitelist/add IGuard to window's defender exclusions as it is a false and wont be fixed until we get the drivers signed for IGuard 
 
 ## Contributors
 - Ikaranetwork
