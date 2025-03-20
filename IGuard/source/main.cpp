@@ -238,7 +238,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
   SetConsoleTitleW(std::format(L"IGuard - Build {}", BUILD_VER).c_str());
 
-  std::printf("IGuard (https://github.com/Ikaranetwork/IGuard)\n [build: %ws]\n\n", BUILD_VER);
+  std::printf("========================\n"
+    "|       IGUARD         |\n"
+    "========================\n"
+	" Github (https://github.com/Ikaranetwork/IGuard)\n"
+	" [build: %ws]\n\n", BUILD_VER);
 
   const auto windowClassName = L"IGuard";
 
